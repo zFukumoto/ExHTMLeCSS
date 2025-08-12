@@ -10,6 +10,7 @@
 </h2>
 <p align="center">
   Esses conteúdos são disponibilizados gratuitamente pelo <strong>Professor Guanabara</strong>, por meio do canal <strong>Curso em Vídeo</strong>.<br>
+  Eles estão organizados em <strong>5 Módulos de Aprendizagem</strong>, sendo:
 </p>
 <table align="center">
   <tr align="center">
