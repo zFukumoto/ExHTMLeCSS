@@ -13,7 +13,7 @@
 </p>
 <table align="center">
   <tr align="center">
-    <td><strong>Módulos</strong></td>
+    <td><strong>Módulo</strong></td>
     <td><strong>Exercícios</strong></td>
     <td><strong>Desafios</strong></td>
     <td><strong>Progresso</strong></td>
