@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> <!--A ordem para "max" precisa ser da menor pra maior (p -> m -> g), logo a imagem grande sempre vai carregar, se a tela for média vai carregar a média e se a tela for pequena vai carregar a pequena-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop><!-- Formatos de Áudio Mp3 WAV OGG-->
+        <source src="midia/Luck Witch - Audio Hertz.mp3" type="audio/mpeg">
+        <source src="midia/Luck Witch - Audio Hertz.wav" type="audio/wav">
+        <source src="midia/Luck Witch - Audio Hertz.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador nãp consegue reproduzir áudio. <a href="midia/Luck Witch - Audio Hertz.mp3">Clique aqui</a> para baixar o arquivo MP3.</p>
+    </audio> <!-- Arquivo WAV é muito pesado, não utilizar.-->
+    
+</body>
+</html>
